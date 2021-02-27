@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo " href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1>React js</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi ex harum fugit voluptatem nihil
+                    quos delectus saepe sint provident, molestias a voluptates doloremque enim aperiam repudiandae
+                    voluptatum esse quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint architecto quam, facilis nemo qui autem deleniti alias numquam quia omnis illum illo fugiat atque quaerat quisquam non! Non, deserunt architecto.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccione Talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Seleccione la cantidad" min="1" max="100">
+
+                    <input class="formulario__submit" type="button" value="Agregar al carrito">
+                </form>
+            </div>
+
+
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Front end store - Todos los derechos reservados </p>
+        <!--  <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--activo " href="tienda.html">Tienda</a>
+            <a class="navegacion__enlace " href="nosotros.html">Nosotros</a>
+        </nav> -->
+    </footer>
+</body>
+
+</html>
